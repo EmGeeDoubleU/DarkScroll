@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "DarkScroll",
+    "version": "1.0.0",
+    "description": "Removes YouTube video thumbnails to reduce scrolling temptation.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/"],
+            "js": ["Content.js"]
+        }
+    ]
+}
