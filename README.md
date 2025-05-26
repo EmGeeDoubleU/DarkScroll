@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" width="120" alt="DarkScroll logo">
+  <img src="Icon.png" width="120" alt="DarkScroll logo">
 </p>
 
 <h1 align="center">DarkScroll</h1>
