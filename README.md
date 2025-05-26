@@ -45,7 +45,6 @@ Here’s what YouTube looks like with **DarkScroll** running — distraction-fre
 You can install **DarkScroll** from the official  
 **[Chrome Web Store →](https://chrome.google.com/webstore/detail/your-extension-id)**
 
-> _(Replace the link above with your real store URL when ready)_
 
 ---
 
