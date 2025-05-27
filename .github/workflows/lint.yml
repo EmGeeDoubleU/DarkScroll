@@ -1,6 +1,10 @@
 name: Lint JavaScript
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   lint:
@@ -15,8 +19,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install ESLint
-        run: npm install eslint --save-dev
+      - name: Install ESLint v8
+        run: npm install eslint@8 --save-dev
 
       - name: Run ESLint on content script
         run: npx eslint Content.js || exit 1
