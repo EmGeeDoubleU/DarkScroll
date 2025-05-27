@@ -73,6 +73,20 @@ You can install **DarkScroll** from the official
 
 ---
 
+
+
+##  How to Contribute
+
+We welcome contributions from the community! Here's how you can help:
+
+1. Check out the [issues](https://github.com/EmGeeDoubleU/DarkScroll/issues) tab for ideas  
+2. Fork this repo and create a new branch  
+3. Make your changes  
+4. Submit a pull request — all contributions are reviewed before merging
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before getting started.
+---
+
 ## Maintainer
 
 **Michael Warshowsky**  
