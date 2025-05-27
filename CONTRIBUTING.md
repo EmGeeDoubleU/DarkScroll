@@ -71,9 +71,5 @@ All PRs must be reviewed and approved by the maintainer before merging.
 
 Questions? Open an [issue](https://github.com/EmGeeDoubleU/DarkScroll/issues/new).
 
-```
 
----
 
-Let me know once that's added and committed — then we’ll move to **Step 3: `CODE_OF_CONDUCT.md`**.
-```
