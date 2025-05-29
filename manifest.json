@@ -3,10 +3,16 @@
     "name": "DarkScroll",
     "version": "1.0.0",
     "description": "Removes YouTube video thumbnails to reduce scrolling temptation.",
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "action": {
+        "default_popup": "popup.html"
+      },
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/"],
-            "js": ["Content.js"]
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["Content.js"],
+            "css": ["darkscroll.css"]
         }
     ]
 }

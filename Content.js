@@ -1,13 +1,24 @@
-let blackSquare = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8u8tpVE9yl1Jj0L81O7deRDfyW-yOXX-Kw&s"
-
-const observer = new MutationObserver(() => {
-  const images = document.getElementsByTagName("img");
-  for (let img of images) {
-    img.src = blackSquare;
+// Toggle class name for all tags of specified type
+const toggleClass = (className, tag="img") => {
+  console.log("Everyday I'm toggling...")
+  const tags = document.getElementsByTagName(tag)
+  for (tag of tags) {
+      tag.classList.toggle(className)
   }
-});
+}
+
+// Default settings go here
+const setDefault = () => {
+  toggleClass("blackout")
+}
+
+
+// Add default settings classes
+const observer = new MutationObserver(() => {
+  setDefault()
+})
 
 observer.observe(document.body, {
   childList: true,
   subtree: true
-});
+})
